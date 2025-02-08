@@ -1,0 +1,24 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "#### Objective: In this assignment, you will develop a simple blockchain using TypeScript. Your task is to create a `Block` and `Blockchain` class that simulate the process of mining, validating, and adding blocks to a chain. The `Block` will go through multiple states (e.g., Created, Mining, Mined, Confirmed, Rejected) based on predefined validation rules. Additionally, you will implement continuous block mining with random data generation.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node ./src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "PBA",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "jest-ctrf-json-reporter": "^0.0.9",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
